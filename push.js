@@ -4,3 +4,8 @@ numbers.push(44);
 numbers.push(99);
 numbers.push(88);
 console.log(numbers);
+
+const friends = ["kalam", "balam", "jamal"];
+
+friends.push("khailam");
+console.log(friends);
