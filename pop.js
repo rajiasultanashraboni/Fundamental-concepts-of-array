@@ -1,3 +1,4 @@
 const friends = ["kalam", "balam", "jamal", "khailam"];
-friends.pop();
-console.log(friends);
+const out = friends.pop();
+
+console.log(out);
