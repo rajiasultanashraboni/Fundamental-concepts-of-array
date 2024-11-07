@@ -3,4 +3,8 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // console.log(numbers[5]);
 
 const fifth = numbers[4];
-console.log(fifth);
+// console.log(fifth);
+
+numbers[4] = 45;
+
+console.log(numbers);
