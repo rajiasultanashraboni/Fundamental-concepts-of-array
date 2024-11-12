@@ -16,7 +16,13 @@ const reverse = [];
 for (let i = 0; i < friends.length; i++) {
   //   console.log(friends[i]);
   const num = friends[i];
-  reverse.unshift(num);
+  //   reverse.unshift(num);
 }
 
-console.log(reverse);
+// console.log(reverse);
+
+// number three
+
+for (let i = friends.length - 1; i >= 0; i--) {
+  console.log(friends[i]);
+}
