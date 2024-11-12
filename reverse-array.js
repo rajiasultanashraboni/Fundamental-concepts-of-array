@@ -28,7 +28,10 @@ for (let i = 0; i < numbers.length; i++) {
 // console.log(reverse);
 
 //number four
-
+const rev_numbers = [];
 for (i = numbers.length - 1; i >= 0; i--) {
   console.log(numbers[i]);
+  rev_numbers.push(numbers[i]);
 }
+
+console.log(rev_numbers);
